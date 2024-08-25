@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="ngmusic" horiz-adv-x="1000" >
+<font-face font-family="ngmusic" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="M893-132a63 63 0 0 1 89 89l-89-89z m-203 380a63 63 0 1 1-88-88l88 88z m292-291l-292 291-88-88 291-292 89 89z m-301 490a278 278 0 0 0-278-278v-125a403 403 0 0 1 403 403h-125z m-278-278a278 278 0 0 0-278 278h-125a403 403 0 0 1 403-403v125z m-278 278a278 278 0 0 0 278 278v125a403 403 0 0 1-403-403h125z m278 278a278 278 0 0 0 278-278h125a403 403 0 0 1-403 403v-125z" horiz-adv-x="1000" />
+
+<glyph glyph-name="menu" unicode="&#xe801;" d="M77 816a77 77 0 1 1 0-153v153z m1077-153a77 77 0 1 1 0 153v-153z m-1077-250a77 77 0 0 1 0-154v154z m1077-154a77 77 0 1 1 0 154v-154z m-1077-250a77 77 0 1 1 0-154v154z m1077-154a77 77 0 1 1 0 154v-154z m-1077 808h1077v153h-1077v-153z m0-404h1077v154h-1077v-154z m0-404h1077v154h-1077v-154z" horiz-adv-x="1231" />
+</font>
+</defs>
+</svg>
