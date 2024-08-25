@@ -1,0 +1,38 @@
+@import 'variables';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+// Global Page Transition
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.2s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.container {
+  width: calc(100% - 72px);
+  max-width: calc(1200px - 72px);
+  margin: 0 auto;
+  padding: 0 36px;
+  z-index: 1;
+  position: relative;
+}

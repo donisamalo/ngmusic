@@ -30,7 +30,11 @@ export default defineNuxtConfig({
         },
       ],
     },
+    pageTransition: { name: 'page', mode: 'out-in' },
   },
+
+  // Global CSS
+  css: ['@/assets/scss/main.scss', '@/assets/icon/css/ngmusic.css'],
 
   // Auto import components
   components: [
@@ -39,4 +43,6 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+
+  modules: ['@element-plus/nuxt'],
 })

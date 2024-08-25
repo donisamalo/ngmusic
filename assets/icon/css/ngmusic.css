@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'ngmusic';
-  src: url('../font/ngmusic.eot?37067253');
-  src: url('../font/ngmusic.eot?37067253#iefix') format('embedded-opentype'),
-       url('../font/ngmusic.woff2?37067253') format('woff2'),
-       url('../font/ngmusic.woff?37067253') format('woff'),
-       url('../font/ngmusic.ttf?37067253') format('truetype'),
-       url('../font/ngmusic.svg?37067253#ngmusic') format('svg');
+  src: url('../font/ngmusic.eot?77500548');
+  src: url('../font/ngmusic.eot?77500548#iefix') format('embedded-opentype'),
+       url('../font/ngmusic.woff2?77500548') format('woff2'),
+       url('../font/ngmusic.woff?77500548') format('woff'),
+       url('../font/ngmusic.ttf?77500548') format('truetype'),
+       url('../font/ngmusic.svg?77500548#ngmusic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'ngmusic';
-    src: url('../font/ngmusic.svg?37067253#ngmusic') format('svg');
+    src: url('../font/ngmusic.svg?77500548#ngmusic') format('svg');
   }
 }
 */
@@ -56,3 +56,4 @@
 
 .icon-search:before { content: '\e800'; } /* '' */
 .icon-menu:before { content: '\e801'; } /* '' */
+.icon-close:before { content: '\e802'; } /* '' */

@@ -1,0 +1,31 @@
+.layout-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  box-shadow: 0 0 6px 0 rgba(148, 77, 230, 0.75);
+  background-image: linear-gradient(100deg, #712bda -47%, #a45deb 53%);
+  margin: 0;
+  padding: 0 15px;
+  position: relative;
+
+  // &::after {
+  //   content: '';
+  //   width: 100%;
+  //   height: 38px;
+  //   background-image: linear-gradient(100deg, #712bda -47%, #a45deb 53%);
+  //   position: absolute;
+  //   bottom: -20px;
+  //   left: 0;
+  //   border-radius: 0 0 50% 50%;
+  // }
+
+  .el-image {
+    width: 77.2px;
+    height: 15.8px;
+  }
+
+  i {
+    cursor: pointer;
+  }
+}
