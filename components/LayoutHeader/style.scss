@@ -7,7 +7,9 @@
   background-image: linear-gradient(100deg, #712bda -47%, #a45deb 53%);
   margin: 0;
   padding: 0 15px;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 
   &::after {
     content: '';

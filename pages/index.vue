@@ -6,13 +6,13 @@
       <el-input
         v-model="musicStore.searchInput"
         placeholder="Artist / Album / Title"
+        @keyup.enter="goToListPage"
       />
       <el-button
         type="primary"
         size="large"
         :disabled="!musicStore.searchInput"
         @click="goToListPage"
-        @keyup.enter="goToListPage"
       >
         Search
       </el-button>

@@ -13,6 +13,7 @@
         <el-input
           v-model="musicStore.searchInput"
           placeholder="Artist / Album / Title"
+          @keyup.enter="search"
         />
         <el-button
           type="primary"
@@ -29,7 +30,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, defineEmits } from 'vue'
 import { useMusicStore } from '~/store/musicStore'
 
 const props = defineProps({
