@@ -35,8 +35,9 @@
           v-if="musicList.length"
           :loading="isLoadMore"
           @click="loadMore"
-          >Load More</el-button
         >
+          Load More
+        </el-button>
       </el-main>
     </el-container>
 
@@ -46,9 +47,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
-
 import { useMusicStore } from '~/store/musicStore'
 import useApi from '~/composables/useApi'
 
@@ -60,6 +58,13 @@ const isFetching = ref<boolean>(false)
 const isLoadMore = ref<boolean>(false)
 const musicList = ref<any[]>([])
 const limit = ref<number>(10)
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth', // Optional: adds a smooth scrolling animation
+  })
+}
 
 const fetch = async () => {
   const params = {
@@ -73,7 +78,9 @@ const fetch = async () => {
 const fetchMusic = async () => {
   try {
     isFetching.value = true
+    limit.value = 10
     await fetch()
+    scrollToTop()
   } catch (error) {
     console.error(error)
     ElMessage.error('Fetching Error!')
