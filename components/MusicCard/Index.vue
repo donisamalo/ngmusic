@@ -1,5 +1,5 @@
 <template>
-  <el-card shadow="hover" class="music-card">
+  <el-card shadow="hover" class="music-card" @click="openTrackViewUrl">
     <el-image :src="detail.artworkUrl100" fit="cover" />
     <div class="wrapper">
       <div class="wrapper-top">
@@ -27,8 +27,16 @@ const props = defineProps<{
     primaryGenreName: string
     trackPrice: number
     artworkUrl100: string
+    trackViewUrl: string
   }
 }>()
+
+const openTrackViewUrl = () => {
+  const url = props.detail.trackViewUrl
+  if (url) {
+    window.open(url, '_blank')
+  }
+}
 </script>
 
 <style lang="scss" scoped>
