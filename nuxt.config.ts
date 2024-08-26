@@ -45,4 +45,10 @@ export default defineNuxtConfig({
   ],
 
   modules: ['@element-plus/nuxt'],
+
+  runtimeConfig: {
+    public: {
+      NUXT_API_BASE_URL: process.env.NUXT_API_BASE_URL,
+    },
+  },
 })
