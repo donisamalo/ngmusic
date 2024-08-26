@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     },
   ],
 
-  modules: ['@element-plus/nuxt'],
+  modules: ['@element-plus/nuxt', '@pinia/nuxt'],
 
   runtimeConfig: {
     public: {

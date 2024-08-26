@@ -1,0 +1,38 @@
+.list-page {
+  &__content {
+    padding: 15px;
+
+    p {
+      margin: 42px 0 38px;
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      span {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--primary);
+      }
+    }
+
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .el-button {
+      display: flex;
+      height: 34px;
+      background-color: var(--gray);
+      border-radius: 17px;
+      padding: 10px 30px;
+      margin: 30px auto 25px;
+      text-align: center;
+
+      &:hover {
+        color: var(--primary);
+        border-color: var(--primary);
+      }
+    }
+  }
+}

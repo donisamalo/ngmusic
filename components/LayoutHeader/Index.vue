@@ -1,5 +1,5 @@
 <template>
-  <el-header height="60px" class="layout-header">
+  <el-header height="40px" class="layout-header">
     <el-icon class="icon-menu" @click="handleMenuClick" />
     <el-image :src="textLogo" fit="contain" />
     <el-icon class="icon-search" @click="handleSearchClick" />

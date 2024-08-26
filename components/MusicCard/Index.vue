@@ -18,7 +18,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import dollarImage from '~/assets/image/currency-dollar.png'
 
 const props = defineProps<{

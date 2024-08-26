@@ -12,9 +12,11 @@
     "lint:fix": "eslint --fix --ext .js,.ts,.vue ."
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
     "axios": "^1.7.5",
     "element-plus": "^2.7.5",
     "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
     "vue": "latest"
   },
   "devDependencies": {
