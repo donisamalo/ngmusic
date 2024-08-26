@@ -82,6 +82,7 @@ const fetchMusic = async () => {
     await fetch()
     scrollToTop()
   } catch (error) {
+    musicList.value = []
     console.error(error)
     ElMessage.error('Fetching Error!')
   } finally {
